@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<script src="A-mainlist.js"></script>
+	<link rel="stylesheet" type="text/css" href="trangchu.css">
+	<style> 
+		#main1 {width: 655px;height: 2200px;margin-top: 50px;float: left;}
+		#maincon{width: 100%;height: 100%;float: left;} 
+		#main2 {width: 330px;height: 2200px;float: left;margin-left: 25px;margin-top: 50px;padding-left: 10px;box-sizing: border-box;}
+		iframe {width: 100%;height: 100%;margin: 0px;border-style: none;}
+		a:hover {cursor: pointer;text-decoration: underline;}
+	</style>
+	<script>
+	</script>
+</head>
+<body onmousemove="demo6();" onload="khoitaostart();indanhdau();laytrang('trangchu.html');"><img src="hinh/koi.gif" id="hinh">
+<div class="header">
+	<div id="childhead">
+		<p id="rieng" onClick="index.html">CINEMAHOME</p>
+		<div id="searchghi"><input type="text" name="search" id="ss"></div>
+		<div id="searchbutton"><input type="button"  onClick="IsEmpty('A-kqtimkiem.html');" name="searchbutton"></div>
+  </div>
+<div id="nav">
+	
+</div>
+<div id="con1">
+		<ul class="menu">
+		  <li><a href="trangchu.html" id="tc"> MỚI </a></li>
+		  <li><span id="hu"> THỂ LOẠI </span>
+		  <ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',1,'Phim Hành động')">Hành động</li>
+					<li onclick="motrang('A-phiminfo.html',2,' Phim Hài hước')">Hài hước</li>
+					<li onclick="motrang('A-phiminfo.html',3,'Phim drama')">Drama</li>
+					<li onclick="motrang('A-phiminfo.html',4,'Phim Romance')">Romance</li>
+					<li onclick="motrang('A-phiminfo.html',5,'Phim Viễn tưởng')">Viễn tưởng</li>
+					<li onclick="motrang('A-phiminfo.html',6,'Phim Hoạt hình')">Hoạt hình</li>
+				</ul></li>
+		  <li> <span id="hu"> QUỐC GIA </span>
+		  	<ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',7,'Phim Mỹ')">Mỹ</li>
+					<li onclick="motrang('A-phiminfo.html',8,'Phim Nhật')">Nhật</li>
+					<li onclick="motrang('A-phiminfo.html',9,'Phim Anh')">Anh</li>
+					<li onclick="motrang('A-phiminfo.html',10,'Phim Pháp')">Pháp</li>
+				</ul></li>
+		  <li> <span id="hu"> PHIM LẺ </span>
+		   <ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',11,'Phim lẻ mới')">Phim lẻ mới</li>
+					<li onclick="motrang('A-phiminfo.html',12,'Phim lẻ cũ')">Phim lẻ cũ</li> 
+				</ul></li>
+		  <li> <span id="hu"> PHIM BỘ </span> 
+		  	<ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',13,'Phim bộ mới')">Phim bộ mới</li>
+					<li onclick="motrang('A-phiminfo.html',14,'Phim bộ cũ')">Phim bộ cũ</li> 
+				</ul></li>
+	</ul>
+	</div>
+</div><div id="tuaphimdecu"><span id="sym">&#9733;</span> PHIM ĐỀ CỬ</div>
+<div id="film"><iframe src="testmini.html" scrolling="no"></iframe></div> 
+<div id="film2">
+	<div id="slideshow">
+		<img src="hinh/agv-ax8.jpg">
+		<img src="hinh/agv-pista.jpg">
+		<img src="hinh/agv-rossi.jpg">
+		<img src="hinh/agv-ax8.jpg" alt="">
+	</div>
+</div> 
+<div id="main1">
+<div id="maincon">
+	<div class="new">
+	<p>MỚI CẬP NHẬT</p>
+	<div id="khungphim"><iframe src="A-mainlist-1.html" scrolling="no"></iframe></div>
+</div>
+<div class="filmle">
+	<p>FILM LẺ MỚI<a onclick="motrang('A-phiminfo.html',11,'Phim lẻ mới')">XEM THÊM</a></p>
+	<div id="khungphim"><iframe src="A-mainlist-2.html" scrolling="no"></iframe></div>
+</div>
+<div class="filmbo">
+	<p>FILM BỘ MỚI<a onclick="motrang('A-phiminfo.html',13,'Phim bộ mới')">XEM THÊM</a></p>
+	<div id="khungphim"><iframe src="A-mainlist-3.html" scrolling="no"></iframe></div>
+</div>
+<div class="anime">
+	<p>FILM HOẠT HÌNH MỚI<a onclick="motrang('A-phiminfo.html',15,'Hoạt hình mới')">XEM THÊM</a></p>
+	<div id="khungphim"><iframe src="A-mainlist-4.html" scrolling="no"></iframe></div>
+</div>
+<div class="other">
+	<p>FILM KHÁC <a href="#"></a></p>
+	<div id="khungphim"><iframe src="A-mainlist-5.html" scrolling="no"></iframe></div>
+</div>
+</div>
+</div>
+<div id="main2">
+	<div class="markfilm" onclick="showmark()">
+	<div id="titledanhdau"></div> 
+	</div>
+<div class="khungiframemark"><iframe src="A-listmark.html"  id="gap"></iframe> </div>
+
+	<div class="filmdecu">
+	<p>FILM XEM NHIỀU</p>
+	<div id="khungphimle"><iframe src="testlistphimle2.html" scrolling="no"></iframe></div>
+</div>
+<div class="filmsapchieu">
+	<p>FILM SẮP CHIẾU</p>
+	<div id="khungphimle"><iframe src="testlistphimle.html" scrolling="no"></iframe></div>
+</div>
+</div>
+
+<div class="footer">
+	<h2 onClick="trangchu.html">CINEMAHOME</h2>
+	<p>&copy Copyright 2017</p>
+</div>
+</body>
+</html>

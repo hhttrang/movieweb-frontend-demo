@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title id="ti"></title>
+<script src="A-mainlist.js"></script>
+<link rel="stylesheet" type="text/css" href="trangchu.css"> 
+<link rel="stylesheet" type="text/css" href="A-mainlist.css"> 
+<style>
+body {background-color: #252424;}
+#tongtrang {width:650px;height:1000px; background-color:  #4A4848;box-sizing: border-box;padding: 0px; margin-top: 0px; float: left;}
+	 #thanh {width: 100%;height: 200px;box-sizing: border-box;margin-top: 120px;z-index: 0;}  
+	 #film2{width: 95%;height: 100%;margin-top: -20px;position:relative;}
+	 #h2 {position: absolute;top:130px ;left:1150px; position: fixed;} 
+	 #iframetrang {width: 100%;float: left;margin: 0px;height: 100%;}
+	 #kq2{width: 670px;float: left;box-sizing: border-box;height: 100%;} 
+	 #titletk {width: 100%;height:50px; color: white;font-family: Segoe UI;font-size: 30px;font-weight: bold;margin-top: 40px;box-sizing: border-box;
+	 			float: left;}
+	 #sym2{font-size: 40px;color: pink;font-weight: bold;float: left;}
+	 	#tua {width: 270px;height: 30px;color: white;font-size: 20px;box-sizing: box;float: left;padding-left: 0px;margin-left: 10px;
+	 		font-size: 25px;word-spacing:0px;text-align:center;padding-bottom: -10px;}
+	 .theselect {margin-left: 30px;width: 150px;height: 40px;border-radius: 10px;background-color:rgba(225,225,225,0.8);font-size: 16px;font-family: Segoe UI;
+	 		 box-sizing: border-box;}
+	 .theselect option {background-color:rgba(225,225,225,0.8);font-size: 16px;font-family: Segoe UI;border-radius: 10px;}
+	 #t {width: 100%; height: 50px;margin-top: 0px;font-family: Segoe UI;font-size: 25px;font-weight: bold;text-align: center;color: white;margin-bottom: 10px;}
+	 #thanhtim2 {margin-left: 30px;width: 200px;height: 40px;border-radius: 10px;background-color:rgba(225,225,225,0.8);font-size: 16px;font-family: Segoe UI;
+	 	padding-left: 10px; box-sizing: border-box;}
+	 	#thanhtim2:hover {border: 7px ridge  rgba(142, 204, 255,0.7);}
+	 	#theselect:hover {border: 7px ridge  rgba(142, 204, 255,0.7);}
+	 	#nuttim {background-color: rgba(87, 165, 229,0.7);width: 200px;height: 30px;font-weight: bold;font-size: 16px;color: white;font-family: Segoe UI;margin-left: 400px;margin-top: 30px;border-radius: 20%;word-spacing: 4px;}
+#main2 {width: 320px;height: 1525px;background-color:#252424;float: left;margin-left: 0px;margin-top: 0px;padding-left: 10px;box-sizing: border-box;} 
+.footer2 {width: 100%;height: 200px;position: absolute;top:2400px;left:0px;background-color: #444444;border-top: 3px solid gold;}
+.footer2 h2 {font-family: Red October; font-size: 30px; color: white; padding-left: 6%; float: left; width: 20%; height: 20%; margin-left: 40%; margin-right: 40%; text-shadow: 3px 3px red;}
+.footer2 p {color: white; margin-left: 48.5%; font-size: 20px;}
+</style> 
+<script> 
+</script>
+</head>
+	 <body onload="intua();indanhdau();laytrang('A-phiminfo.html');"> 
+<div class="header">
+	<div id="childhead">
+		<p id="rieng" onClick="index.html">CINEMAHOME</p>
+		<div id="searchghi"><input type="text" id="ss" name="search"></div>
+		<div id="searchbutton"><input type="button" onclick="IsEmpty('A-kqtimkiem.html');"  name="searchbutton"></div>
+  </div>
+<div id="nav">
+	<div id="con1">
+		<ul class="menu">
+		  <li><a href="trangchu.html" id="tc"> MỚI </a></li>
+		  <li><span id="hu"> THỂ LOẠI </span>
+		  <ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',1,'Phim Hành động')">Hành động</li>
+					<li onclick="motrang('A-phiminfo.html',2,' Phim Hài hước')">Hài hước</li>
+					<li onclick="motrang('A-phiminfo.html',3,'Phim drama')">Drama</li>
+					<li onclick="motrang('A-phiminfo.html',4,'Phim Romance')">Romance</li>
+					<li onclick="motrang('A-phiminfo.html',5,'Phim Viễn tưởng')">Viễn tưởng</li>
+					<li onclick="motrang('A-phiminfo.html',6,'Phim Hoạt hình')">Hoạt hình</li>
+				</ul></li>
+		  <li> <span id="hu"> QUỐC GIA </span>
+		  	<ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',7,'Phim Mỹ')">Mỹ</li>
+					<li onclick="motrang('A-phiminfo.html',8,'Phim Nhật')">Nhật</li>
+					<li onclick="motrang('A-phiminfo.html',9,'Phim Anh')">Anh</li>
+					<li onclick="motrang('A-phiminfo.html',10,'Phim Pháp')">Pháp</li>
+				</ul></li>
+		  <li> <span id="hu"> PHIM LẺ </span>
+		   <ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',11,'Phim lẻ mới')">Phim lẻ mới</li>
+					<li onclick="motrang('A-phiminfo.html',12,'Phim lẻ cũ')">Phim lẻ cũ</li> 
+				</ul></li>
+		  <li> <span id="hu"> PHIM BỘ </span> 
+		  	<ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',13,'Phim bộ mới')">Phim bộ mới</li>
+					<li onclick="motrang('A-phiminfo.html',14,'Phim bộ cũ')">Phim bộ cũ</li> 
+				</ul></li>
+	</ul>
+	</div>
+</div>
+<div id="thanh">
+	<div id="film2">
+	<div id="slideshow">
+		<img src="hinh/agv-ax8.jpg">
+		<img src="hinh/agv-pista.jpg">
+		<img src="hinh/agv-rossi.jpg">
+		<img src="hinh/agv-ax8.jpg" alt="">
+	</div>
+</div> 
+</div><img src="hinh/tewi.gif" id="h2">
+<div id="titletk"><span id="sym2">&#9733;</span><div id="tua"></div>  <span id="sym2">&#9733;</span></div>
+<div id="tongtrang">
+	<div id="kq2">
+		<iframe src="A-muc1.html" scrolling="no" id="iframetrang"></iframe>
+	</div> 
+</div>
+<div id="trangtri2">
+	<div id="hinhtt"></div>
+</div>
+	<div id="main2">
+	<div class="markfilm" onclick="showmark()">
+	<div id="titledanhdau"></div> 
+	</div>
+<div class="khungiframemark"><iframe src="A-listmark.html" id="gap"></iframe> </div>
+
+	<div class="filmdecu">
+	<p>FILM XEM NHIỀU</p>
+	<div id="khungphimle"><iframe src="testlistphimle2.html" scrolling="no"></iframe></div>
+</div>
+<div class="filmsapchieu">
+	<p>FILM SẮP CHIẾU</p>
+	<div id="khungphimle"><iframe src="testlistphimle.html" scrolling="no"></iframe></div>
+</div>
+	</div>
+<div id="thongbao" onclick="tatthongbao(this)">
+		<p id="viettb"></p>
+	</div>
+<div class="footer2">
+	<h2 onClick="trangchu.html">CINEMAHOME</h2>
+	<p>&copy Copyright 2017</p>
+</div>
+</body>
+</html>

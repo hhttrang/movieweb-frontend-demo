@@ -1,0 +1,15 @@
+@charset "utf-8"; 
+body {margin-left: 0px;background-color: #4A4848;margin-top: 0px;}
+.pro {width: 205px;height: 300px;background-color: #252424;box-sizing: border-box; float: left;
+	margin-left: 8px;margin-top: 6px;z-index: 1;}
+#thehinh{width: 100%;height: 76%; box-sizing: border-box;border: 2px solid grey;float: left;z-index: 1;} 
+	#thehinh:hover {opacity: 0.8;}
+	#hinhnen {width: 100%;height: 100%;}
+	.pro:hover{background-color: rgba(150, 128, 252,0.1);cursor: pointer;}
+#thenho {width: 90px;height: 25px;background-color:#f93131;margin-top: 15px;color: white;border-bottom-right-radius: 100%;margin-top: 15px;z-index: 2;}   
+#tong{width: 100%;height: 100%;padding-left: 5px;padding-top: 5px; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";}
+#title { width: 100%;font-weight: bold;font-size: 13px;color: #80b0fc; text-transform: uppercase;} 
+	#title:hover{color: yellow;cursor: pointer;}
+#titlephu {width: 100%;margin-top: -10px;box-sizing: border-box;font-size: 13px;color: white;}
+#dodai{ width: 100%;margin-top: -10px;box-sizing: border-box;font-size: 13px;color: grey;}
+#dodai:hover{color: yellow;cursor: pointer;}

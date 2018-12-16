@@ -1,0 +1,54 @@
+@charset "utf-8";
+body {background-color:#252424;}
+.header2 {height: 10%; width:100%;  float: left; background-color: black; position: absolute; top: 0px; left: 0px; right: 0px; border-bottom: 3px solid #dacb46}
+#childhead2 {width: 60%; position: absolute; left: 3%; margin-left: 20%}
+#childhead2 p {font-family:Red October ;color: white; cursor: pointer; margin-top: 15px; font-size: 45px; width: 30%; text-shadow: 3px 3px red;}
+#childhead2 p:hover {cursor: pointer;}
+#childhead2 input {
+    margin-left: 10px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../resource/searchicon.png');
+    background-size: 40px 40px;
+    background-position: 2px 2px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+#childhead2 input:focus {
+    width: 60%;
+}
+.nav2 {width:100% float: left; background-color: pink;}
+        #tc2 {text-decoration: none;color: red;}
+    ul.menu2 {list-style-type: none; width: 60%; height: 50px; position: absolute; left: 20%; top: 80px;}
+        ul.menu2 > li {width: 18%; height:90px; float: left; margin-left: 1%; margin-top: 0.5%; font-family: UTM Cafeta; font-size: 25px; height: auto; text-align: center; color: red;background-color: black;}
+        .nav2 li:hover {cursor: pointer;}
+        .nav2 li:hover {display: block; color: black;background-color: rgba(255, 61, 61,0.5);}
+.film {width: 1080px; height: 720px; position: absolute; top: 150px; left: 20%; float: left}
+#film-info {float: left;width: 40%; height:500px; margin-left: 25%; margin-top: 10%; background-color: gray;}
+#watch {width: 120px; height: 50px; background-color: black; color: white; margin-left: 50%; margin-top: 333px; text-align: center ; font-family:UTM Cafeta; cursor: pointer;}
+#watch:hover {background-color: red; color: black;}
+#poster {width: 30%; margin-left: 10%; margin-top: 5%; float: left;}
+#poster img {width: 250px; }
+#detail {width: 40%; float: left; margin-left: 8%;}
+#detail h2 {color: red; font-family: UTM Cafeta; font-size: 30px;padding-top: 5px;}
+#detail p {color: white; font-family: Utm Cafeta;font-size: 20px;}
+#movie-detail {width: 40%; float: left; margin-left: 25%; background-color: gray; margin-top: 2%;}
+#movie-detail h2 {color: white; font-family: UTM Cafeta; padding-left: 5%}
+#movie-detail p {font-family: Segoe UI; font-size: 18px; padding-left: 5%; padding-right: 5%}
+#movie-detail img {width: 90%;margin-left: 5%;} 
+
+#trailer {z-index: 3;position: absolute;position: fixed;top:50px;left:150px;width: 80%;height: 600px;
+    background-color: rgba(255, 255, 255,0.2);box-sizing: border-box;border: 9px dashed #281e01;display: none;transition-duration: 3s;}
+    #thedong {width: 100%;height: 10%;box-sizing: border-box;padding-left: 5px;margin-left: 00px;}
+        #thedong p{width: 875px;height: 100%;font-size: 40px;color: black;float: left;margin-top: 5px;box-sizing: border-box;}
+        #thedong input {height: 100%;font-size: 30px;float: left;font-weight: bold;background-color:rgba(255, 255, 255,0.1);
+            margin-left: 130px;border:0.1 solid grey; }
+    #chen {width: 100%;height: 90%;border: 1px solid black;box-sizing: border-box;padding-left: 100px;padding-top: 5px;}
+        #vide {width: 90%;height: 98%;box-sizing: border-box;padding-top: 0px;float: left;margin-top: -10px;}
+        #vide video{width: 100%;height: 100%;float: left;margin-top: -30px;}

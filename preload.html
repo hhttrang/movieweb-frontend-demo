@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Thông tin phim</title>
+	<script src="A-mainlist.js"></script>
+	<link rel="stylesheet" type="text/css" href="preload.css">
+	<link rel="stylesheet" type="text/css" href="trangchu.css"> 
+	<style>
+		#film3 {width:850px; height: 350px; margin-top: 30px;margin-left: 100px;z-index: 0;
+        overflow: hidden;}
+        #trangtri {width: 760px;background-image: url(hinh/koishi.gif);background-repeat: repeat;background-size: contain;height: 170px;z-index: 1;
+        	margin-top: 200px;margin-left: 150px;}
+	</style>
+	</head>
+<body onload="showinfof()">
+	<div class="header2">
+		<div id="childhead2">
+			<p onClick="index.html">CINEMAHOME</p>
+	  </div>
+	</div>
+	<div id="nav2">
+	<div id="con12">
+		<ul class="menu2">
+		  <li><a href="trangchu.html" id="tc2"> MỚI </a></li>
+		  <li><span id="hu"> THỂ LOẠI </span>
+		  <ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',1,'Phim Hành động')">Hành động</li>
+					<li onclick="motrang('A-phiminfo.html',2,' Phim Hài hước')">Hài hước</li>
+					<li onclick="motrang('A-phiminfo.html',3,'Phim drama')">Drama</li>
+					<li onclick="motrang('A-phiminfo.html',4,'Phim Romance')">Romance</li>
+					<li onclick="motrang('A-phiminfo.html',5,'Phim Viễn tưởng')">Viễn tưởng</li>
+					<li onclick="motrang('A-phiminfo.html',6,'Phim Hoạt hình')">Hoạt hình</li>
+				</ul></li>
+		  <li> <span id="hu"> QUỐC GIA </span>
+		  	<ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',7,'Phim Mỹ')">Mỹ</li>
+					<li onclick="motrang('A-phiminfo.html',8,'Phim Nhật')">Nhật</li>
+					<li onclick="motrang('A-phiminfo.html',9,'Phim Anh')">Anh</li>
+					<li onclick="motrang('A-phiminfo.html',10,'Phim Pháp')">Pháp</li>
+				</ul></li>
+		  <li> <span id="hu"> PHIM LẺ </span>
+		   <ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',11,'Phim lẻ mới')">Phim lẻ mới</li>
+					<li onclick="motrang('A-phiminfo.html',12,'Phim lẻ cũ')">Phim lẻ cũ</li> 
+				</ul></li>
+		  <li> <span id="hu"> PHIM BỘ </span> 
+		  	<ul class="submenu">
+					<li onclick="motrang('A-phiminfo.html',13,'Phim bộ mới')">Phim bộ mới</li>
+					<li onclick="motrang('A-phiminfo.html',14,'Phim bộ cũ')">Phim bộ cũ</li> 
+				</ul></li>
+	</ul>
+	</div>
+</div>
+	<div id="trangtri"></div>
+	<div id="tua"><span id="sym2">&#9733;</span> THÔNG TIN PHIM <span id="sym2">&#9733;</span></div>
+	<div class="show"> 
+	<div id="show2">
+		<div id="infof">
+			<div id="chua">
+				<div id="mark">
+					<input id="mark1" type="button" value="&#9734; Đánh dấu" onclick="kira();">
+				</div>
+				<div id="poster">
+		</div>
+		<div id="watch" onclick="battrailer()">XEM PHIM</div>
+		<div id="muc2">
+			<p id="de"><span id="sym">&#9733;</span> Đánh giá:</p>
+			<div id="danhgia">
+				
+			</div>
+		</div>
+			</div> 
+		
+		<div id="detail">
+			<h2 id="detailh2"></h2>
+			<p id="detailp"></p> 
+		</div>
+		
+		</div>
+		<div id="infof2">
+			<div id="movie-detail">
+		<h2>NỘI DUNG PHIM</h2>
+	</div><p id="ndmovie2"></p>
+		</div>
+	</div>
+</div>
+	<div id="film3">
+	<div id="slideshow">
+		<img src="hinh/agv-ax8.jpg">
+		<img src="hinh/agv-pista.jpg">
+		<img src="hinh/agv-rossi.jpg">
+		<img src="hinh/agv-ax8.jpg" alt="">
+	</div>
+</div>
+	<!--<div id="recommend">
+		<p>CÓ THỂ BẠN MUỐN XEM</p>
+	</div>-->
+	<div id="trailer">
+	<div id="thedong"><p>Trailer Phim</p><input type="button" name="close" value="&#9746" onclick="tattrailer()"></div>
+	<div id="chen"><div id="vide">
+	<video controls="controls" id="myvideo"><source src="hinh/__aki_minoriko_aki_shizuha_alice_margatroid_chen_chen_and_others_curiosities_of_lotus_asia_immaterial_and_missing_power_imperish.mp4" type="video/mp4"></video>
+	</div></div>
+</div>
+	<div id="thongbao" onclick="tatthongbao(this)">
+		<p id="viettb"></p>
+	</div>
+	<div class="footer2">
+		<h2 onClick="trangchu.html">CINEMAHOME</h2>
+	<p>&copy Copyright 2017</p>
+	</div>

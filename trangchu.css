@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: #252424; margin-left: 0px;padding-left: 12%;}
+iframe {width: 1100px;height: 320px;border-style: none;margin-left: -40px;}
+        #hinh {z-index: 3;width: 170px;height: 170px;}  
+.header {width: 86%;height: 200px; float: left; background-color: #252424; z-index: 3;margin-left: 0px;}
+#childhead {width: 500px;height: 100px;box-sizing: border-box;}
+#rieng {font-family: Red October;font-weight: bold; text-shadow: 3px 3px red;
+		color: white; font-size: 46px; width: 400px;margin-top: 0px; padding-left: 10px;}
+#searchghi { width: 200px;height: 35px;box-sizing: border-box;position: absolute;left:890px;top:20px;
+	border: 1px solid white;border-radius: 35px;}
+       #tc {text-decoration: none;color: red;}
+    #searchghi input {width: 200px;height: 35px;box-sizing: border-box;
+    border-radius: 15px;padding-left: 5px;background:#7a7a7a;border: 1px white; color: white;font-size: 15px;}
+     #searchghi input:hover {box-shadow: 3px #69a1ef;}
+#searchbutton {width: 35px;height: 35px;box-sizing: border-box;border-radius: 100%; position: absolute;left:1100px;top:20px;} 
+    #searchbutton input {width: 35px;height: 35px;box-sizing: border-box;border-radius: 100%;
+    background-image:url(hinh/searchicon.png);background-size: cover;}
+    #searchbutton input:hover {cursor: pointer;}
+#nav {width: 100%; float: left;margin-bottom: 0px;}
+	ul.menu {list-style-type: none; width: 95%; text-decoration-style:none; font-family: UTM Cafeta; font-size: 19.5px;text-align: center; color: red;
+    }
+		ul.menu > li {float: left; font-family: UTM Cafeta; font-size: 22px;text-align: center; color: red;width: 20%;
+            background-color: black;width: 170px;height: 30px; margin-left: 10px;}
+		li:hover {cursor: pointer; background-color: rgba(224, 237, 80,0.4);transform: scale(1.1);transition-duration: 0.5s;display:block;} 
+        ul.submenu {padding-left: 0px; display: none;list-style-type: none;font-family: UTM Cafeta;} 
+        ul.submenu:hover {padding-left: 0px; display: block;}  
+        li:hover ul{display:block;color: white;cursor: pointer;font-family: UTM Cafeta;} 
+
+   ul.menu > li {width: 18%; height:90px; float: left; margin-left: 1%; margin-top: 0.5%; font-family: UTM Cafeta; font-size: 25px; height: auto; text-align: center; color: red;background-color: black;}
+        .nav li:hover {cursor: pointer;}
+        .nav li:hover {display: block; color: black;background-color: rgba(224, 237, 80,0.4);}
+#tuaphimdecu {width: 300px;height: 35px;color: white;font-family: UTM Cafeta;font-size: 16px;position: absolute;top:184px;left:163px;
+            box-sizing: border-box;padding-bottom: 10px;padding-left: 6px;font-weight: bold;border-radius: 2px;z-index: 1;}
+            #sym{font-size: 30px;color: pink;font-weight: bold;}
+#film{width: 1090px;height: 320px;margin-left: -50px;}
+#film2 {width: 1000px; height: 300px; margin-top: 210px;
+        overflow: hidden;}
+#slideshow {width: 4320px; height: 720px;margin-top: 10px;
+        animation-name:slide;
+        animation-duration: 18s;
+        animation-iteration-count: infinite; 
+        animation-delay: 3s;
+        position: relative;}
+    #slideshow img {width: 1080px; height: 720px; float: left;}
+    @keyframes slide
+    {
+        0% {left: 0px;}
+        33% {left: -1080px;}
+        66%  {left: -2160px;}
+        100% {left: -3240px;}
+    }
+.new  {width: 650px; height: 390px; box-sizing: border-box; margin-top: 40px; float: left; margin-top: 10px;} 
+.new p {width: 100%;background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 2px; font-family: Segoe UI; font-weight: bold}
+.new a {color: white; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";margin-left: 400px;}
+ #khungphim {width: 100%;height: 80%;box-sizing: border-box;margin-top: 20px;}
+    #khungphim iframe{width: 100%;height: 100%;margin-left: 0px;}
+.filmle  {width: 650px; height: 390px;margin-top: 20px; float: left;  margin-top: 35px;}
+.filmle p {width: 100%;background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 2px; font-family: Segoe UI; font-weight: bold}
+.filmle a {color: white; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"; margin-left: 450px;}
+
+.filmbo  {width: 650px; height: 390px;margin-top: 20px; float: left; float: left;box-sizing: border-box; margin-top: 35px;}
+.filmbo p {background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; font-family: Segoe UI;font-weight: bold}
+.filmbo a {color: white;margin-left: 440px; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"}
+
+.anime  {width: 650px; height: 390px; box-sizing: border-box; margin-top: 40px; float: left; margin-top: 35px;}
+.anime p {width: 100%;background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 2px; font-family: Segoe UI; font-weight: bold}
+.anime a {color: white; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"; margin-left: 350px;}
+
+.other   {width: 650px; height: 390px;margin-top: 20px; float: left; float: left;box-sizing: border-box; margin-top: 35px;}
+.other p {width: 100%;background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 2px; font-family: Segoe UI; font-weight: bold}
+.other a {color: white; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"; margin-left: 400px;}
+
+
+.filmdecu  {width: 300px; height: 700px; background-color: #4A4848; margin-top:20px; float: left;}
+.filmdecu p {background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; font-family: Segoe UI;font-weight: bold}
+#khungphimle {margin-left: 5px; width: 98%;height: 88%;box-sizing: border-box;}
+    #khungphimle iframe {width: 100%;height: 100%;box-sizing: border-box;float: left; border-style: none;margin-left: 0px;}
+.filmsapchieu  {width: 300px; height: 700px; background-color: #4A4848; margin-top: 20px; float: left;}
+.filmsapchieu p {background-color: red; color: white; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; font-family: Segoe UI;font-weight: bold}
+    .markfilm {width: 300px; height: 75px; background-color: #4A4848; float: left; margin-top: 10px;}
+    #titledanhdau {background-color: red; color: white;margin-top: 18px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; font-family: Segoe UI;font-weight: bold}
+    #titledanhdau:hover {color: red;text-decoration: underline;cursor: pointer;background-color: rgba(255,255,255,0.8);}
+.footer {width: 100%;height: 200px;position: absolute;top:3300px;left:0px;background-color: #444444;border-top:3px solid yellow;}
+.footer h2 {font-family: Red October; font-size: 30px; color: white; padding-left: 6%; float: left; width: 20%; height: 20%; margin-left: 40%; margin-right: 40%; text-shadow: 3px 3px red;}
+.footer p {color: white; margin-left: 48.5%; font-size: 20px;}
+ 
+        .khungiframemark {width: 300px;height: 350px;box-sizing: border-box;float: left; border-style: none;background-color: #4A4848;
+            padding-left: 5px;padding-right:5px;display:none;transition-duration: 5s; }
+        #gap {width: 100%;height: 100%;box-sizing: border-box;margin-left: 1px;display:none;}
+
+.footer2 {width: 100%;height: 200px;position: absolute;top:1775px;left:0px;background-color: #444444;border-top:3px solid #dacb46; }
+.footer2 h2 {font-family: Red October; font-size: 30px; color: white; padding-left: 6%; 
+    float: left; width: 20%; height: 20%; margin-left: 40%; margin-right: 40%; text-shadow: 3px 3px red;}
+.footer2 p {color: white; margin-left: 48.5%; font-size: 20px;}
+
+#tua {color:pink;font-size: 40px;font-weight: bold;word-spacing: 20px;font-family: UTM Cafeta;width: 100%;margin-top: 10px;height: 100px;letter-spacing: 5px;
+    padding-left: 23%;}
+        #sym2 {font-size: 60px;color: gold;}
+.show {z-index: 3;width: 70%;height: 900px;transition-duration: 5s;margin-top: 0px;margin-left: 110px;padding-bottom: 10px;
+    box-sizing: border-box;} 
+#show2 {width: 100%;height: 100%;   
+    box-sizing: border-box;padding-top: 20px;padding-left: 25px;padding-right: 25px;padding-bottom: 20px;}
+    #infof {width: 100%;height: 55%;float: left;background-color:rgb(113, 116, 119) ;border-radius: 10px;}
+    #infof2{width: 100%;height: 45%;float: left;background-color:rgb(113, 116, 119) ;border-radius: 10px;margin-top: 10px;
+        background-image: url("hinh/reimu.gif");background-repeat: no-repeat;background-position: 530px 100px;background-opacity:0.1;}
+        
+        #chua {width: 50%;height:100%;padding-top: 10px;margin-left: 10px;height: 80%;float: left;}
+        
+        #poster {width: 70%;height: 80%;  float: left;margin-left: 70px;border: 5px dashed rgb(255, 237, 135);box-sizing: border-box;} 
+            #mark {z-index: 2;}
+                #mark input {background-color: rgba(79, 79, 79,0.5);border-style: none;width: 120px;height: 40px;z-index: 2;position: absolute;top: 550px;left:365px;
+                    font-family: Segoe UI ;font-size: 18px;color: #e5e6e8;}
+                #mark input:hover{background-color: rgba(19, 19, 19,0.5); cursor: pointer;}
+        #watch {width: 120px; height: 45px; background-color: black; color: lightpink; 
+            text-align: center ; font-family:UTM Cafeta; cursor: pointer;margin-top: 320px;box-sizing: border-box;
+            padding-top: 10px;font-size: 20px;margin-left: 135px;border-radius: 3px;}
+        #watch:hover {background-color:red; color: gold;opacity: 0.9;border: 3px dotted yellow;}
+        #detail {width: 46%;height: 95%; float: left; margin-left: 10px;margin-top: 10px;padding-left: 20px;padding-right: 20px;border: 3px dashed rgb(255, 237, 135);box-sizing: border-box;}
+        #detail h2 {color: red; font-family: UTM Cafeta; font-size: 30px;padding-top: 5px;}
+        #detail p {color: rgb(255, 237, 135); font-family: Utm Cafeta;font-size: 20px;margin-top: -20px;text-shadow: 1px 1px 1px rgb(255, 237, 135);}
+            #muc2 {height: 30%;width: 100%;}
+            #de {width: 100%;height: 10px;color: white; font-family: UTM Cafeta; font-size: 21px;text-transform:uppercase;margin-top: -3px; }
+            #danhgia {width: 100%;height: 50px;float: left;margin-top: 5px;margin-left: 110px;}
+        #movie-detail {width: 98%; float: left; margin-left: 10px; margin-top: 15px;background-color: rgba(225,255,255,0);}
+        #movie-detail h2 {color: white; font-family: UTM Cafeta; padding-left: 5%;color: red;
+                margin-left: 20px;margin-right: 20px;}
+         #ndmovie2 {font-family: Segoe UI; font-size: 18px; padding-left: 5%; padding-right: 5%;color:rgb(255, 237, 135);text-shadow: 1px 1px 1px black;
+             border: 3px dashed rgb(255, 237, 135);border-radius: 5px;margin-left: 20px;margin-right: 20px;margin-bottom: 10px;height: 340px;}
+        #movie-detail img {width: 90%;margin-left: 5%;}
+
+::-webkit-scrollbar {
+      width: 10px;height:10px;
+}
+::-webkit-scrollbar-track {
+      background-color: #252424;
+}  
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(151, 151, 153, 0.5);
+      border-radius: 10%; 
+} 
+ 
+::-webkit-scrollbar-button {
+      background-color: #1b1b1c;
+}  
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+}  
+
+#thongbao {width: 100%;height: 770px;background-color: rgba(0, 0, 0,0.2);position: absolute;top:00px;left:00px;position: fixed;
+    background-image: url("hinh/hina.gif");background-repeat: no-repeat;background-position: 520px 90px;display: none;}
+    #viettb {position: absolute;top:300px;left:490px;position: fixed;font-size: 40px;color: white;font-family:Red October;font-weight: bold;
+        border-radius: 50%;border: 13px dotted white;}
+    #trangtri2 {width: 650px;height: 500px;box-sizing: border-box;position: absolute;top: 1600px;}
+    #hinhtt {background-image: url("hinh/hina2.gif");width: 100%;height: 100%;background-repeat: no-repeat;background-position: 130px; }
